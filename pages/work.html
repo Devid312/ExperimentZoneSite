@@ -46,7 +46,7 @@ diagonalfill=page.heroDiagonalFill%}
           class="work-image {% if work.cardImageHeight %}card-image-style{% else %}card-image-height{% endif %}"
         >
           <a href="{{ work.url | relative_url}}"
-            ><img
+            ><img alt="STRATEGIES"
               src="{% if work.cardImage %}{{ work.cardImage | relative_url }}{% else %}{{ work.heroBackground | relative_url }}{% endif%}"
               {%
               if
